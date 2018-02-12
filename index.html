@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Responsive Templet</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/mediaquery.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav class="navbar  navbar-fixed-top">
+
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+          aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+        <a class="navbar-brand" href="#">Aya</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right ">
+
+          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Company</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Programming</a></li>
+              <li><a href="#">web design</a></li>
+              <li><a href="#">Responsive </a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Desktop</a></li>
+
+            </ul>
+          </li>
+          <li><a href="#">Maps</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-->
+
+  </nav>
+
+
+  <!-- start carousal -->
+
+
+
+
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators hidden-xs">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/01.jpg" alt="pic">
+        <div class="carousel-caption hidden-xs">
+          <h1>Glyphicons</h1>
+          <p class="lead">Includes over 250 glyphs in font format from the Glyphicon Halflings set. Glyphicons Halflings are normally not
+            available for free, but their creator has made them available for Bootstrap free of cost. As a thank you, we
+            only ask that you include a link back to Glyphicons whenever possible.</p>
+          <div class="btn btn-success">Read More</div>
+          <div class="btn btn-danger">Buy Now</div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/02.jpg" alt="pic">
+        <div class="carousel-caption hidden-xs">
+          <h1>Available glyphs</h1>
+          <p class="lead">Includes over 250 glyphs in font format from the Glyphicon Halflings set. Glyphicons Halflings are normally not
+            available for free, but their creator has made them available for Bootstrap free of cost. As a thank you, we
+            only ask that you include a link back to Glyphicons whenever possible.</p>
+          <div class="btn btn-success">Read More</div>
+          <div class="btn btn-danger">Buy Now</div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/03.jpg" alt="pic">
+        <div class="carousel-caption hidden-xs">
+          <h1>How to use</h1>
+          <p class="lead">Includes over 250 glyphs in font format from the Glyphicon Halflings set. Glyphicons Halflings are normally not
+            available for free, but their creator has made them available for Bootstrap free of cost. As a thank you, we
+            only ask that you include a link back to Glyphicons whenever possible.</p>
+          <div class="btn btn-success">Read More</div>
+          <div class="btn btn-danger">Buy Now</div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="images/04.jpg" alt="pic">
+        <div class="carousel-caption hidden-xs ">
+          <h1>Examples</h1>
+          <p class="lead">Includes over 250 glyphs in font format from the Glyphicon Halflings set. Glyphicons Halflings are normally not
+            available for free, but their creator has made them available for Bootstrap free of cost. As a thank you, we
+            only ask that you include a link back to Glyphicons whenever possible.</p>
+          <div class="btn btn-success">Read More</div>
+          <div class="btn btn-danger">Buy Now</div>
+        </div>
+      </div>
+
+      ...
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <!-- About Section  -->
+
+  <section class="about text-center">
+    <div class="container">
+      <h1>Welcome To My New <span>Responsive Templet</span> </h1>
+      <p class="lead">Hello Let Me Introduce My Responsive Template Created by Me with <strong>Bootstrap</strong> 3.2.0</p>
+    </div>
+  </section>
+
+
+  <!-- Features section -->
+
+  <section class="features text-center">
+    <div class="container">
+      <h1>Our Features</h1>
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6">
+
+          <div class="feat">
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+            <h4>100% Reasponsive </h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s. </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+          <div class="feat">
+            <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+            <h4>Retina Ready </h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s. </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+          <div class="feat">
+            <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+            <h4>Awesome Display </h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s. </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+
+          <div class="feat">
+            <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+            <h4>Well Documented </h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              standard dummy text ever since the 1500s. </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials text-center">
+    <div class="container">
+      <h1>What Our Clients Say</h1>
+
+      <div id="testimonials" class="carousel slide" data-ride="carousel">
+
+
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+          <div class="item active">
+            <p class="lead"> Includes over 250 glyphs in font format from the Glyphicon Halflings set. Glyphicons Halflings are normally not
+              available for free, but their creator has made them available for Bootstrap free of cost. As a thank you, we
+              only ask that you include a link back to Glyphicons whenever possible</p>
+            <span> Aya Farag</span>
+          </div>
+
+          <div class="item">
+            <p class="lead"> Includes over 250 glyphs in font format from the Glyphicon Halflings set. Glyphicons Halflings are normally notavailable
+              for free, but their creator has made them available for Bootstrap free of cost. As a thank you, weonly ask
+              that you include a link back to Glyphicons whenever possible</p>
+            <span> Arwa Farag</span>
+
+          </div>
+
+          <div class="item">
+            <p class="lead"> Includes over 250 glyphs in font format from the Glyphicon Halflings set. Glyphicons Halflings are normally notavailable
+              for free, but their creator has made them available for Bootstrap free of cost. As a thank you, weonly ask
+              that you include a link back to Glyphicons whenever possible</p>
+            <span>Abdo Farag</span>
+          </div>
+
+          <div class="item">
+            <p class="lead"> Includes over 250 glyphs in font format from the Glyphicon Halflings set. Glyphicons Halflings are normally notavailable
+              for free, but their creator has made them available for Bootstrap free of cost. As a thank you, weonly ask
+              that you include a link back to Glyphicons whenever possible</p>
+            <span>Eman Farag</span>
+          </div>
+
+          <ol class="carousel-indicators ">
+            <li data-target="#testimonials" data-slide-to="0" class="active">
+              <img src="images/avatar_03.jpg">
+            </li>
+            <li data-target="#testimonials" data-slide-to="1">
+              <img src="images/avatar_04.jpg">
+            </li>
+            <li data-target="#testimonials" data-slide-to="2">
+              <img src="images/avatar_02.jpg">
+            </li>
+            <li data-target="#testimonials" data-slide-to="3">
+              <img src="images/avatar_01.jpg">
+            </li>
+          </ol>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Price section -->
+
+  <section class="price-table text-center">
+    <div class="container">
+      <h1>Our Amazing Prices</h1>
+
+      <div class="row">
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="price-box">
+            <h2 class="text-primary"> Hosting </h2>
+            <p class="center-block"> $40</p>
+            <ul class="list-unstyled">
+              <li>Space: 30GB</li>
+              <li>Emails: 20 </li>
+              <li> Ips: 2 IP</li>
+              <li> Databases: 10</li>
+              <li> Ftp Accounts: 5</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="price-box">
+            <h2 class="text-success"> Vps </h2>
+            <p class="center-block"> $40</p>
+            <ul class="list-unstyled">
+              <li>Space: 30GB</li>
+              <li>Emails: 20 </li>
+              <li> Ips: 2 IP</li>
+              <li> Databases: 10</li>
+              <li> Ftp Accounts: 5</li>
+            </ul>
+            <a href="#" class="btn btn-success">Order Now</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="price-box">
+            <h2 class="text-info"> Dedicated </h2>
+            <p class="center-block"> $40</p>
+            <ul class="list-unstyled">
+              <li>Space: 30GB</li>
+              <li>Emails: 20 </li>
+              <li> Ips: 2 IP</li>
+              <li> Databases: 10</li>
+              <li> Ftp Accounts: 5</li>
+            </ul>
+            <a href="#" class="btn btn-info">Order Now</a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6 col-xs-12">
+          <div class="price-box">
+            <h2 class="text-danger"> Cloud </h2>
+            <p class="center-block"> $40</p>
+            <ul class="list-unstyled">
+              <li>Space: 30GB</li>
+              <li>Emails: 20 </li>
+              <li> Ips: 2 IP</li>
+              <li> Databases: 10</li>
+              <li> Ftp Accounts: 5</li>
+            </ul>
+            <a href="#" class="btn btn-danger">Order Now</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-----------------------------------------------  Our Team  ---------------------------------------------------->
+
+
+  <section class="our-team text-center">
+    <div class="team">
+      <div class="container">
+        <h1>Meet Our Awesome Team</h1>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="person"></div>
+            <img class="img-circle" src="images/chris.jpg">
+            <h3>chris</h3>
+            <p>This Is Chris Coyier The Founder Of The Amazing Website Css-Tricks</p>
+            <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="person"></div>
+            <img class="img-circle" src="images/marissa.jpg">
+            <h3>marissa</h3>
+            <p>This Is Amazing Hacker Woman With A Much Knowledge In Hacking Systems</p>
+            <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="person"></div>
+            <img class="img-circle" src="images/steve.jpg">
+            <h3>steve</h3>
+            <p>This Is The Man Who Change The World With His Apple Products</p>
+            <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="person"></div>
+            <img class="img-circle" src="images/leah.jpg">
+            <h3>leah</h3>
+            <p>This Is Amazing Hacker Woman With A Much Knowledge In Hacking Systems</p>
+            <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--                                                 Subscribe                       -->
+  <section class="subscribe text-center">
+    <div class="container">
+      <h1>Keep In Touch</h1>
+      <p class="lead">Sign Up For Newsletter Dont Worry About Spam We Hate It Too.</p>
+      <form class="form-inline">
+        <input class="form-control input-lg" type="text" placeholder="Type Your Email">
+        <button class="btn btn-danger btn-lg"><i class="fa fa-edit fa-lg"></i> Subscribe</button>
+      </form>
+    </div>
+
+  </section>
+
+  <!-- Statistics -->
+
+  <section class="statistics text-center" style="background:url('stats.jpg') no-repeat center center fixed">
+    <div class="data">
+      <div class="container">
+        <h1>Our Main Statistics </h1>
+        <div class="row">
+
+          <div class="col-md-3 col-sm-6">
+            <div class="stats">
+              <i class="fa fa-users fa-5x"></i>
+              <p>9.550</p>
+              <span>Satisfied Users</span>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="stats">
+              <i class="fa fa-comments fa-5x"></i>
+              <p>25,600</p>
+              <span>Posted Comments</span>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="stats">
+              <i class="fa fa-suitcase fa-5x"></i>
+              <p>3,260</p>
+              <span>Projects Done</span>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <div class="stats">
+              <i class="fa fa-support fa-5x"></i>
+              <p>95,350</p>
+              <span>Tickets Archieved</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--        Skills progress  -->
+
+  <section class="our-skills ">
+    <div class="container">
+      <h1 class="text-center">Our Skills</h1>
+      <div class="row">
+
+        <div class="col-md-5">
+          <div class="skills-progress">
+            <div class="progress">
+              <div class="progress-bar progress-bar-success " role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                style="width:80%">
+                Html5 / Css3
+              </div>
+
+            </div>
+
+            <div class="progress">
+              <div class="progress-bar progress-bar-danger " role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                style="width:90%">
+                PHP / MySQL
+              </div>
+
+            </div>
+
+            <div class="progress">
+              <div class="progress-bar progress-bar-primary " role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                style="width:70%">
+                Javascript / jQuery
+              </div>
+
+            </div>
+
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning " role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"
+                style="width:95%">
+                Wordpress
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="col-md-6 col-md-offset-1">
+          <div class="skills-info">
+            <h3>About The Team</h3>
+            <p class="lead">We Are Specialised Desiging And Programming Team Passionate About Web Design And Creatin Digital Ideas We Will
+              Transfer Your Idea To A Digital Dream And Make Your Wish Come True</p>
+            <button class="btn btn-primary">Talk with Professional</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--      Contact us -->
+  <section class="contact-us text-center">
+    <div class="fields">
+      <div class="container">
+        <div class="row">
+          <i class="fa fa-headphones fa-5x"></i>
+          <h1>Tell Us What You Fell</h1>
+          <p class="lead">Feel Free To Contact Us Anytime</p>
+
+
+
+          <form role="form">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" placeholder="Username" class="form-control input-lg">
+              </div>
+
+              <div class="form-group">
+                <input type="email" placeholder="Email" class="form-control input-lg">
+              </div>
+
+              <div class="form-group">
+                <input type="number" placeholder="Cell phone" class="form-control input-lg">
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="form-group ">
+                <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+                </div>
+                <button type="button" class="btn btn-danger btn-block">Contact Us</button>
+             
+              
+              </div> 
+          </form>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+<!-- FOOTER -->
+
+<div class="footer">
+    <div class="container">
+        <div class="par">&copy; copyright by aya 2017</div>
+    </div>
+</div>
+
+
+
+
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
